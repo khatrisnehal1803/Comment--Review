@@ -1,6 +1,4 @@
-/* style.css */
 
-/* General reset and body styling */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f4f7f8;
@@ -8,7 +6,7 @@ body {
   margin: 0;
 }
 
-/* Form container */
+
 form {
   max-width: 500px;
   margin: 0 auto;
@@ -18,19 +16,18 @@ form {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
-/* Form title */
+
 form h2 {
   text-align: center;
   margin-bottom: 25px;
   color: #333;
 }
 
-/* Form fields */
 form div {
   margin-bottom: 20px;
 }
 
-/* Labels */
+
 form label {
   display: block;
   margin-bottom: 5px;
@@ -38,7 +35,7 @@ form label {
   color: #555;
 }
 
-/* Input and Select fields */
+
 input[type="text"],
 input[type="email"],
 input[type="password"],
@@ -57,7 +54,7 @@ select:focus {
   outline: none;
 }
 
-/* Radio buttons styling */
+
 input[type="radio"] {
   margin-right: 8px;
   accent-color: #007bff;
@@ -67,12 +64,11 @@ form label input[type="radio"] {
   display: inline-block;
 }
 
-/* Gender radio group */
+
 form div label:not(:first-child) {
   margin-left: 15px;
 }
 
-/* Submit button */
 button[type="submit"] {
   background-color: #007bff;
   color: white;
@@ -89,7 +85,6 @@ button[type="submit"]:hover {
   background-color: #0056b3;
 }
 
-/* Responsive */
 @media (max-width: 600px) {
   form {
     padding: 20px;
